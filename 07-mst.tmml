@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+
+<TeXmacs version="1.99.8">
+  <style><tuple><tm-arg>book</tm-arg><tm-arg>british</tm-arg><tm-arg>algo</tm-arg></tuple></style>
+  
+  <body>
+    <tm-par>
+      <hide-preamble>
+        <tm-par>
+          
+        </tm-par>
+      </hide-preamble>
+    </tm-par>
+    
+    <tm-par>
+      <chapter>Minimum Spanning Trees</chapter>
+    </tm-par>
+    
+    <tm-par>
+      <section>Distinct Edge Weights</section>
+    </tm-par>
+    
+    <tm-par>
+      <section>The Only Minimum Spanning Tree Algorithm</section>
+    </tm-par>
+    
+    <tm-par>
+      <section>Borůvka's Algorithm</section>
+    </tm-par>
+    
+    <tm-par>
+      <section>Jarník's(“Prim's”) Algorithm</section>
+    </tm-par>
+    
+    <tm-par>
+      <section>Kruskal's Algorithm</section>
+    </tm-par>
+    
+    <tm-par>
+      <section>Exercises</section>
+    </tm-par>
+  </body>
+  
+  <initial>
+    <collection>
+      <associate>
+        <tm-arg>preamble</tm-arg>
+        <tm-arg>false</tm-arg>
+      </associate>
+    </collection>
+  </initial>
+  
+  <references>
+    <collection>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-1</tm-arg>
+          <tm-arg><tuple><tm-arg>1</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-2</tm-arg>
+          <tm-arg><tuple><tm-arg>1.1</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-3</tm-arg>
+          <tm-arg><tuple><tm-arg>1.2</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-4</tm-arg>
+          <tm-arg><tuple><tm-arg>1.3</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-5</tm-arg>
+          <tm-arg><tuple><tm-arg>1.4</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-6</tm-arg>
+          <tm-arg><tuple><tm-arg>1.5</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+      <tm-arg>
+        <associate>
+          <tm-arg>auto-7</tm-arg>
+          <tm-arg><tuple><tm-arg>1.6</tm-arg><tm-arg>?</tm-arg></tuple></tm-arg>
+        </associate>
+      </tm-arg>
+    </collection>
+  </references>
+  
+  <auxiliary>
+    <collection>
+      <associate>
+        <tm-arg>toc</tm-arg>
+        <tm-arg>
+          <tm-par>
+            <vspace_42_>1fn</vspace_42_><with font-series="bold" math-font-series="bold">1<space>2spc</space>Minimum
+            Spanning Trees</with>
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-1</pageref><vspace>0.5fn</vspace>
+          </tm-par>
+          
+          <tm-par>
+            1.1<space>2spc</space>Distinct Edge Weights
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-2</pageref>
+          </tm-par>
+          
+          <tm-par>
+            1.2<space>2spc</space>The Only Minimum Spanning Tree Algorithm
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-3</pageref>
+          </tm-par>
+          
+          <tm-par>
+            1.3<space>2spc</space>Borůvka's Algorithm
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-4</pageref>
+          </tm-par>
+          
+          <tm-par>
+            1.4<space>2spc</space>Jarník's(“Prim's”) Algorithm
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-5</pageref>
+          </tm-par>
+          
+          <tm-par>
+            1.5<space>2spc</space>Kruskal's Algorithm
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-6</pageref>
+          </tm-par>
+          
+          <tm-par>
+            1.6<space>2spc</space>Exercises
+            <datoms><tm-arg><macro><tm-arg>x</tm-arg><tm-arg><repeat><tm-arg><arg>x</arg></tm-arg><tm-arg><with
+            font-series="medium"><with font-size="1"><space>0.2fn</space>.<space>0.2fn</space></with></with></tm-arg></repeat></tm-arg></macro></tm-arg><tm-arg><htab>5mm</htab></tm-arg></datoms>
+            <no-break/><pageref>auto-7</pageref>
+          </tm-par>
+        </tm-arg>
+      </associate>
+    </collection>
+  </auxiliary>
+</TeXmacs>
