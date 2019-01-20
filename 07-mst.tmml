@@ -1,11 +1,15 @@
 <?xml version="1.0"?>
 
 <TeXmacs version="1.99.8">
-  <style><tuple><tm-arg>book</tm-arg><tm-arg>british</tm-arg><tm-arg>algo</tm-arg></tuple></style>
+  <style><tuple><tm-arg>book</tm-arg><tm-arg>algorithms</tm-arg></tuple></style>
   
   <body>
     <tm-par>
       <hide-preamble>
+        <tm-par>
+          
+        </tm-par>
+        
         <tm-par>
           
         </tm-par>

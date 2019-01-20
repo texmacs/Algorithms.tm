@@ -1,9 +1,11 @@
 <TeXmacs|1.99.8>
 
-<style|<tuple|book|british|algo>>
+<style|<tuple|book|algorithms>>
 
 <\body>
   <\hide-preamble>
+    \;
+
     \;
   </hide-preamble>
 
